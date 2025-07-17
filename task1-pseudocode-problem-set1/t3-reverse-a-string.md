@@ -6,7 +6,7 @@
 `string_input`  
 
 **Step 2:** Initialize an empty string to store the reversed version  
-`reversed_string ← ""`  
+`reversed_string <- ""`  
 
 **Step 3:** Loop through the input string from the last character to the first  
 add it to `reversed_string`  
