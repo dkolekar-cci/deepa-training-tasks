@@ -1,27 +1,14 @@
 # Task 1: Calculate Age in Days
 
-## Problem Statement
-
-Convert the given age in years to days.
-
-- Use 365 days as the length of a year.
-- Ignore leap years.
-- Input is a positive integer.
-
----
-
 ## Pseudocode
-
 **Step 1:** Take input for age in years  
 `Integer age`
 
 **Step 2:** Multiply the age by 365 to convert to days  
-`age_in_days ← age × 365`
+`age_in_days <- age × 365`
 
 **Step 3:** Return the age in days  
 `Return age_in_days`
-
----
 
 ## Dry Run
 
@@ -36,8 +23,6 @@ Input taken as `age = 23`
 **Step 3:**  
 Return `8395`
 
----
-
 ### Example 2: `Calculate_Age(0)`
 
 **Step 1:**  
@@ -48,8 +33,6 @@ Input taken as `age = 0`
 
 **Step 3:**  
 Return `0`
-
----
 
 ### Example 3: `Calculate_Age(20)`
 
