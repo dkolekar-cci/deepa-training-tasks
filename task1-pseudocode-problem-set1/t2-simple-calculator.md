@@ -12,13 +12,13 @@
 `result <- 0`  
 
 If operator is '+' then 
-`result ← num1 + num2`  
+`result <- num1 + num2`  
 Else if operator is '-' then 
-`result ← num1 - num2`  
+`result <- num1 - num2`  
 Else if operator is '*' then 
-`result ← num1 * num2`  
+`result <- num1 * num2`  
 Else if operator is '/' then 
-`result ← num1 / num2`  
+`result <- num1 / num2`  
 
 **Step 4:** Return result  
 
