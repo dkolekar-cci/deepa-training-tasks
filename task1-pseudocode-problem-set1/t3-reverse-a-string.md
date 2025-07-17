@@ -10,7 +10,6 @@
 
 **Step 3:** Loop through the input string from the last character to the first  
 add it to `reversed_string`  
-
 **Step 4:** Return `reversed_string`  
 
 ## Dry Run
