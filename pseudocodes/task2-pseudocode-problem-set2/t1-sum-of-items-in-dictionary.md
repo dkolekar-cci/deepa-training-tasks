@@ -22,9 +22,9 @@
 `total <- 0`
 
 **Step-2:**  
-`total <- total + 400 → total = 400`  
-`total <- total + 200 → total = 600`  
-`total <- total + 300 → total = 900`
+`total <- total + 400 so total = 400`  
+`total <- total + 200 so total = 600`  
+`total <- total + 300 so total = 900`
 
 **Output:**  
 `900`
@@ -38,9 +38,9 @@
 `total <- 0`
 
 **Step-2:**  
-`total <- total + 35 → total = 35`  
-`total <- total + 18 → total = 53`  
-`total <- total + 45 → total = 98`
+`total <- total + 35 so total = 35`  
+`total <- total + 18 so total = 53`  
+`total <- total + 45 so total = 98`
 
 **Output:**  
 `98`
