@@ -38,11 +38,11 @@ Skip numbers less than 2 (because 0 and 1 are not prime)
 
 # Dry Run Example 1: Valid Input
 
-Input:  
+**Input:**
 start = 10  
 end = 20
 
-Execution:  
+**Execution:**  
 10 - Not prime  
 11 - Prime  
 12 - Not prime  
@@ -55,17 +55,17 @@ Execution:
 19 - Prime  
 20 - Not prime
 
-Output:  
+**Output:**  
 list_primes: 11 13 17 19
 
 # Dry Run Example 2: Invalid Range
 
-Input:  
+**Input:**  
 start = 50  
 end = 30
 
-Execution:  
+**Execution:**  
 Start is greater than end  
 
-Output:  
+**Output:**  
 Invalid range. Starting number must be less than or equal to ending number.
