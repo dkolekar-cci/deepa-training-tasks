@@ -1,11 +1,16 @@
 # Task 1: Calculate Age in Days 
 
-def calculate_age_in_days(age, days_in_year):
-    return age * days_in_year
+DAYS_IN_YEAR = 365
 
-age = int(input("Enter your age in years: "))
-days_in_year = int(input("Enter number of days in a year: "))
+def calculate_age_in_days(age):
+    return age * DAYS_IN_YEAR
 
-total_days = calculate_age_in_days(age, days_in_year)
-
-print("You are", total_days, "days old.")
+try:
+    age = int(input("Enter your age in years: "))
+    if age < 0:
+        print("Invalid input. Please enter a positive age.")
+    else:
+        total_days = calculate_age_in_days(age)
+        print("You are", total_days, "days old.")
+except ValueError:
+    print("Invalid input. Please enter your age as a number.")
