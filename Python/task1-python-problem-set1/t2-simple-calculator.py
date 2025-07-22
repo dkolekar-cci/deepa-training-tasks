@@ -1,4 +1,4 @@
-# Task 2: Simple Calculator using 
+# Task 2: Simple Calculator
 
 num1 = float(input("Enter first number: "))
 num2 = float(input("Enter second number: "))
