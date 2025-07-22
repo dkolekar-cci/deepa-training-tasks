@@ -10,7 +10,6 @@ def calculate_age_in_days(age):
 
 age = int(input("Enter your age in years: "))
 
-
 #hardcoded values
 total_days = calculate_age_in_days(age)
 print("You are", total_days, "days old.")
