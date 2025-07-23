@@ -17,6 +17,7 @@ def check_number_in_arrays(num):
 input_number = int(input("Enter the number to search: "))
 print(check_number_in_arrays(input_number))
 
+#hardcoded calls
 print(check_number_in_arrays(9))
 print(check_number_in_arrays(70))
 print(check_number_in_arrays(100))
