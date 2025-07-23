@@ -6,19 +6,17 @@ def check_number_in_arrays(num):
     found_in_array_two = num in array_two
 
     if found_in_array_one and found_in_array_two:
-        print(f"number {num} found in both arrays")
+        return f"number {num} found in both arrays"
     elif found_in_array_one:
-        print(f"number {num} found in array_one")
+        return f"number {num} found in array_one"
     elif found_in_array_two:
-        print(f"number {num} found in array_two")
+        return f"number {num} found in array_two"
     else:
-        print(f"number {num} not found in any array")
+        return f"number {num} not found in any array"
 
 input_number = int(input("Enter the number to search: "))
-check_number_in_arrays(input_number)
-print("\n")
+print(check_number_in_arrays(input_number))
 
-# hardcoded calls
-check_number_in_arrays(9)
-check_number_in_arrays(70)
-check_number_in_arrays(100)
+print(check_number_in_arrays(9))
+print(check_number_in_arrays(70))
+print(check_number_in_arrays(100))
