@@ -3,11 +3,11 @@ class Rectangle:
         self.width = width
         self.height = height
 
-    def Calculate_Area(self):
+    def calculate_area(self):
         return self.width * self.height
 
-Object_r = Rectangle(10, 12)
+object_r = Rectangle(10, 12)
 
-print("Area of rectangle:", Object_r.Calculate_Area())
+print("Area of rectangle:", object_r.calculate_arearea())
 
 
