@@ -12,7 +12,7 @@ age = int(input("Enter your age in years: "))
 
 #hardcoded values
 total_days = calculate_age_in_days(age)
-print("You are", total_days, "days old.")
+print(f"You are {total_days} old")
 
 total_days = calculate_age_in_days(-1)
 print("You are", total_days, "days old.")
