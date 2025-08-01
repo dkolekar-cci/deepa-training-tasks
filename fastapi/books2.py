@@ -42,14 +42,14 @@ class BookRequest(BaseModel):
             }
         }
     }
-        
+
 
 BOOKS = [
     Book(1, 'Computer Science Pro', 'codewithdeepa', 'A very nice book!', 5, 2030),
     Book(2, 'Be Fast with FastAPI', 'codewithdeepa', 'A great book!', 5, 2030),
     Book(3, 'Master Endpoints', 'codewithdeepa', 'A awesome book!', 5, 2029),
-    Book(4, 'HP1', 'Author 1', 'Book Description', 2, 2028),
-    Book(5, 'HP2', 'Author 2', 'Book Description', 3, 2027),
+    Book(4, 'Data Structures', 'Author 1', 'Book Description', 2, 2028),
+    Book(5, 'Oops', 'Author 2', 'Book Description', 3, 2027),
     Book(6, 'HP3', 'Author 3', 'Book Description', 1, 2026)
 ]
 
@@ -74,7 +74,6 @@ async def read_book_by_rating(book_rating: int = Query(gt=0, lt=6)):
         if book.rating == book_rating:
             books_to_return.append(book)
     return books_to_return
-
 
 
 @app.get("/books/publish/", status_code=status.HTTP_200_OK)
